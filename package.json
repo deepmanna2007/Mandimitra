@@ -1,0 +1,25 @@
+{
+  "name": "mandimitra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/deepmanna2007/Mandimitra/issues"
+  },
+  "homepage": "https://github.com/deepmanna2007/Mandimitra#readme",
+  "dependencies": {
+    "concurrently": "^10.0.5",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "uuid": "^14.0.2"
+  }
+}

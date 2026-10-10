@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="wheatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  <!-- Crop Leaf / Grain stalk -->
+  <path d="M22 46 C22 32 30 24 38 18 C34 26 30 36 28 46 Z" fill="url(#wheatGrad)" />
+  <path d="M28 46 C28 36 34 30 42 26 C38 34 34 40 32 46 Z" fill="#86efac" opacity="0.8" />
+  <!-- Location Pin -->
+  <path d="M42 16 C37 16 33 20 33 25 C33 31 42 40 42 40 C42 40 51 31 51 25 C51 20 47 16 42 16 Z" fill="#ef4444" />
+  <circle cx="42" cy="24" r="3" fill="#ffffff" />
+  <!-- Price Trend Line -->
+  <path d="M12 42 L24 34 L34 37 L52 20" stroke="#facc15" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="52" cy="20" r="3" fill="#22c55e" stroke="#ffffff" stroke-width="1.5" />
+</svg>
